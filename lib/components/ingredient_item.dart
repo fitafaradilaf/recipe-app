@@ -79,3 +79,23 @@ class IngredientItem extends StatelessWidget{
     );
   }
 }
+
+/*
+---------------------------------------
+|           IngredientItem             |
+---------------------------------------
+| -quantity: String                    |
+| -measure: String                     |
+| -food: String                        |
+| -imageUrl: String                    |
+---------------------------------------
+| +IngredientItem({                    |
+|   key,                               |
+|   required quantity,                 |
+|   required measure,                  |
+|   required food,                     |
+|   required imageUrl                  |
+| })                                  |
+| +build(BuildContext): Widget         |
+---------------------------------------
+*/
