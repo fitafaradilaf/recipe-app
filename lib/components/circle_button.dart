@@ -25,3 +25,16 @@ class CircleButton extends StatelessWidget{
     );
   }
 }
+
+
+/* 
++------------------------+
+| CircleButton           |
+|------------------------|
+| - icon: IconData       |
+| - label: String        |
+|------------------------|
+| + CircleButton(...)    |
+| + build(context:       |
+|   BuildContext): Widget|
++------------------------+ */
