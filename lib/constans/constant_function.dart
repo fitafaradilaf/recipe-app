@@ -35,3 +35,11 @@ class ConstantFunction{
     return recipe;
   }
 }
+
+/*
+---------------------------------------
+|          ConstantFunction            |
+---------------------------------------
+| - getResponse(String): Future<List>  |
+---------------------------------------
+*/
