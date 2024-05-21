@@ -156,3 +156,32 @@ class HomeTabBarView extends StatelessWidget {
     );
   }
 }
+
+/*
+---------------------------------------
+|            TabBarWidget              |
+---------------------------------------
+|                                     |
+| +TabBarWidget ({super.key})          |
+| +build(BuildContext): Widget         |
+---------------------------------------
+
+---------------------------------------
+|               TabItem                |
+---------------------------------------
+| -title: String                       |
+---------------------------------------
+| +TabItem({super.key, required title})|
+| +build(BuildContext): Widget         |
+---------------------------------------
+
+---------------------------------------
+|            HomeTabBarView            |
+---------------------------------------
+| -recipe: String                      |
+---------------------------------------
+| +HomeTabBarView({super.key,          |
+|   required recipe})                   |
+| +build(BuildContext): Widget         |
+---------------------------------------
+*/
