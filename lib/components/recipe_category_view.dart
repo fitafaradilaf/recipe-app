@@ -45,3 +45,19 @@ class RecipeCategoryView extends StatelessWidget{
     );
   }
 }
+
+/*
+---------------------------------------
+|          RecipeCategoryView          |
+---------------------------------------
+| -name: String                        |
+| -image: String                       |
+---------------------------------------
+| +RecipeCategoryView({                |
+|   key,                               |
+|   required name,                     |
+|   required image                     |
+| })                                  |
+| +build(BuildContext): Widget         |
+---------------------------------------
+*/
