@@ -81,3 +81,25 @@ class _BottomNavBarState extends State<BottomNavBar> {
       );
   }
 }
+
+
+
++--------------------+
+| BottomNavBar       |
+|--------------------|
+| - onTap: Function  |
+| - SelectedItem: int|
+|--------------------|
+| + BottomNavBar(...)|
+| + createState():   |
+|   State<BottomNavBar>|
++--------------------+
+          |
+          v
++--------------------+
+| _BottomNavBarState |
+|--------------------|
+| + build(context:   |
+|   BuildContext):   |
+|   Widget           |
++--------------------+
