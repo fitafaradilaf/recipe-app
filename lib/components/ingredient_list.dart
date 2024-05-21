@@ -26,3 +26,17 @@ class IngredientList extends StatelessWidget{
     ); 
   }
 }
+
+/*
+---------------------------------------
+|           IngredientList             |
+---------------------------------------
+| -ingredients: List<dynamic>          |
+---------------------------------------
+| +IngredientList({                    |
+|   key,                               |
+|   required ingredients               |
+| })                                  |
+| +build(BuildContext): Widget         |
+---------------------------------------
+*/
