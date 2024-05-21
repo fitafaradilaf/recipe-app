@@ -82,7 +82,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   }
 }
 
-
+/*
 
 +--------------------+
 | BottomNavBar       |
@@ -103,3 +103,4 @@ class _BottomNavBarState extends State<BottomNavBar> {
 |   BuildContext):   |
 |   Widget           |
 +--------------------+
+*/
