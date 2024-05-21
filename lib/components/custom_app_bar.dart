@@ -26,5 +26,18 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget{
     );
   }
 
-
 }
+
+/* 
++--------------------------+
+| CustomAppBar             |
+|--------------------------|
+| - title: String          |
+| - back: bool             |
+|--------------------------|
+| + CustomAppBar(...)      |
+| + preferredSize: Size    |
+| + build(context:         |
+|   BuildContext): Widget  |
++--------------------------+
+*/
