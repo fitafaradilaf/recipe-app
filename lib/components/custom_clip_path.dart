@@ -18,3 +18,18 @@ class CustomClipPath extends CustomClipper<Path>{
 
 
 }
+
+
+/*
++--------------------------+
+| CustomClipPath           |
+|--------------------------|
+| + CustomClipPath()       |
+|--------------------------|
+| + getClip(size: Size):   |
+|   Path                   |
+| + shouldReclip(oldClipper|
+|   : CustomClipper<Path>):|
+|   bool                   |
++--------------------------+
+*/
