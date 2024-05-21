@@ -17,3 +17,13 @@ class HomeAppBar extends StatelessWidget {
     );
   }
 }
+/*
++--------------------------+
+| HomeAppBar               |
+|--------------------------|
+| + HomeAppBar()           |
+|--------------------------|
+| + build(context:         |
+|   BuildContext): Widget  |
++--------------------------+
+*/
